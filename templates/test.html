@@ -33,11 +33,11 @@
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link" href="#">Accueil</a>
+            <a class="nav-item nav-link" href="{{ url_for('getindex') }}">Accueil</a>
             <a class="nav-item nav-link" href="#">Pourquoi Consulter?</a>
             <a class="nav-item nav-link" href="#">Mon Parcours</a>
             <a class="nav-item nav-link" href="#">Prestations</a>
-            <a class="nav-item nav-link" href="test.html">Prise de RDV</a>
+            <a class="nav-item nav-link" href="{{ url_for('gettest') }}">Prise de RDV</a>
           </div>
         </div>
       </div>
