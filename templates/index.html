@@ -11,7 +11,7 @@
     <!-- CSS stylesheet -->
     <link rel="stylesheet" href="/static/css/style.css">
 
-    <title>Hello, world!</title>
+    <title>NQ Psy</title>
   </head>
   <body>
     <!-- navbar -->
@@ -31,20 +31,28 @@
              <a class="nav-item nav-link" href="#">Pourquoi Consulter?</a>
              <a class="nav-item nav-link" href="#">Mon Parcours</a>
              <a class="nav-item nav-link" href="#">Prestations</a>
-             <a class="nav-item nav-link" href="#">Prise de RDV</a>
+             <a class="nav-item nav-link" href="{{ url_for('gettest') }}">Prise de RDV</a>
            </div>
          </div>
        </div>
      </nav>
 
 
-    <div class="container">
-    </div>
+
 
     <!-- Hero image section -->
     <div id="hero-image">
       <img src="static/images/Nolwenn-19.jpg" class="img-fluid text-center"  alt="hero image">
     </div>
+
+     <!-- Login -->
+     <div class="card">
+      <div class="card-body">
+        This is some text within a card body.
+      </div>
+    </div>
+
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
