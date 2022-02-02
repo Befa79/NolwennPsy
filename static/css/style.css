@@ -15,3 +15,56 @@
 #login{
     padding-top: 120px;
 }
+
+#logo{
+    margin-left: -50px !important;
+}
+
+
+
+
+
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:426px) {
+    #logo{
+        width: auto !important;
+        margin-left: -10px !important;
+    }
+
+    #hero-image {
+        padding-top: 115px;
+    }
+
+    /* This part is necessary to have the menus appearance on the photo */
+    .nav-item {
+        color: white !important;
+        padding: 5px 0 5px 0;
+    }
+
+}
+
+@media screen and (max-width: 321px) {
+    #logo{
+        width: auto !important;
+        margin-left: -10px !important;
+    }
+
+    #hero-image {
+        padding-top: 115px;
+    }
+    .nav-item {
+        color: white !important;
+        padding: 1px 0 1px 0;
+    }
+}
